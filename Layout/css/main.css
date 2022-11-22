@@ -72,8 +72,16 @@
     text-align: center;
     color: red;
 }
-.row{
+.namepro1{
     text-align: center;
+    color: red;
+    text-decoration: line-through;
+}
+Footer .row{
+    text-align: center;
+}
+Footer{
+    background-color: #EFEFEF;
 }
 .footer-title{
     margin-top: 20px;
@@ -100,4 +108,7 @@
 }
 ::placeholder{
     color: grey;
+}
+.detail-title{
+    text-align: left;
 }
