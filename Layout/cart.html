@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cart.css">
 </head>
 
 <body>
@@ -66,15 +67,102 @@
                     class="fas fa-search" id="icon-search"></i></button>
         </div>
     </nav>
-
-
-
-
-
-
-
     
-    <br> <!-- footer chung -->
+    <div class="smallnav">
+        <a href="admin_layout.html">TRANG CHỦ</a> > <a href="trangdanhmuc.html">Giỏ hàng của bạn</a>
+    </div>
+    <article>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Sản phẩm</th>
+                    <th scope="col">Đơn giá</th>
+                    <th scope="col">Số lượng</th>
+                    <th scope="col">Số tiền</th>
+                    <th scope="col">Thao Tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"><input type="checkbox" name="" id=""></th>
+                    <td>tên sp</td>
+                    <td>giá</td>
+                    <td>số lượng</td>
+                    <td>= số lượng * giá</td>
+                    <td>
+                        <button type="submit" class="chucnang"><a href="xóa sản phẩm trong giỏ hàng">Xóa</a></button>
+                        <button class="chucnang">Tìm sản phẩm cùng loại</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><input type="checkbox" name="" id=""></th>
+                    <td>tên sp</td>
+                    <td>giá</td>
+                    <td>số lượng</td>
+                    <td>= số lượng * giá</td>
+                    <td>
+                        <button type="submit" class="chucnang"><a href="xóa sản phẩm trong giỏ hàng">Xóa</a></button>
+                        <button class="chucnang">Tìm sản phẩm cùng loại</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><input type="checkbox" name="" id=""></th>
+                    <td>tên sp</td>
+                    <td>giá</td>
+                    <td>số lượng</td>
+                    <td>= số lượng * giá</td>
+                    <td>
+                        <button type="submit" class="chucnang"><a href="xóa sản phẩm trong giỏ hàng">Xóa</a></button>
+                        <button class="chucnang">Tìm sản phẩm cùng loại</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table class="table" id="sticky">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col"><input type="checkbox" name="" id=""></th>
+                    <th scope="col">Chọn tất cả</th>
+                    <th scope="col">Xóa mục đã chọn</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"><button class="buy">Mua hàng</button></th>
+                </tr>
+            </thead>
+        </table>
+    </article>
+    <br>
+    <div class="more">
+        <h2>Có thể bạn cũng thích</h2>
+        <div class="row">
+            <div class="main-article">
+
+                <div class="col-lg-3" id="mainimg">
+                    <img src="ao-so-mi-oxford-tay-ngan-asm017-mau-xanh_2_small-15391.png" alt="">
+                    <p class="namepro">Tên sp</p>
+                    <p class="namepro">399000</p>
+                </div>
+                <div class="col-lg-3" id="mainimg">
+                    <img src="ao-so-mi-oxford-tay-ngan-asm017-mau-xanh_2_small-15391.png" alt="">
+                    <p class="namepro">Tên sp</p>
+                    <p class="namepro">399000</p>
+                </div>
+                <div class="col-lg-3" id="mainimg">
+                    <img src="ao-so-mi-oxford-tay-ngan-asm017-mau-xanh_2_small-15391.png" alt="">
+                    <p class="namepro">Tên sp</p>
+                    <p class="namepro">399000</p>
+                </div>
+                <div class="col-lg-3" id="mainimg">
+                    <img src="ao-so-mi-oxford-tay-ngan-asm017-mau-xanh_2_small-15391.png" alt="">
+                    <p class="namepro">Tên sp</p>
+                    <p class="namepro">399000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr> <!-- footer chung -->
     <div class="Footer">
         <div class="col-lg-3" style="float: left; font-size: 16px;">
             <h4 class="footer-title">HỆ THỐNG CỬA HÀNG</h4>
